@@ -100,8 +100,15 @@ main{
     padding-top: 30px;
 }
 
+.spazio_per_carte{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-bottom: 1px solid #6B6B6B;
+}
 .card1{
-    background-color: rgb(177, 177, 177);
+    background-color: rgba(219, 219, 219, 0.479);
     width: 30%;
     margin: 1em;
     display: flex;
